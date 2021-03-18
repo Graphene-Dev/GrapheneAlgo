@@ -36,10 +36,10 @@ public class grapheneAlgo {
 
     //add contents
     public void addToHash(String toAdd) {//no position
-        addToHash(toAdd,toHash.size());
+        toHash.add(toAdd);
     }
     public void addToHash(String toAdd, int position) {//with position
-
+        toHash.add(position, toAdd);
     }
 
 }
