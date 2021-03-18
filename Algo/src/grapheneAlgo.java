@@ -20,6 +20,9 @@ public class grapheneAlgo {
     public int getDifficulty() {
         return difficulty;
     }
+    public boolean isHashed() {
+        return hashed;
+    }
     public String getHash() throws Exception {
         if (hashed) {
             return hash;
