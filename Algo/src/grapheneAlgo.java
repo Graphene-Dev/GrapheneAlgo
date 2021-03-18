@@ -5,7 +5,7 @@ import java.util.*;
 public class grapheneAlgo {
     private int length;
     private int difficulty;
-    private String toHash;
+    private ArrayList<String> toHash;
     private String hash;
     private boolean hashed = false;
 
@@ -35,6 +35,11 @@ public class grapheneAlgo {
 
 
     //add contents
+    public void addToHash(String toAdd) {//no position
+        addToHash(toAdd,toHash.size());
+    }
+    public void addToHash(String toAdd, int position) {//with position
 
+    }
 
 }
