@@ -1,5 +1,6 @@
 import java.util.*;
-public class algo {
+
+public class test {
     public static void main(String[] args) {
 
 
