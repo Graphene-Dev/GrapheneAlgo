@@ -27,7 +27,7 @@ public class grapheneAlgo {
         if (hashed) {
             return hash;
         } else {
-            throw new Exception("Not Hashed Yet");//Maybe just return -1?
+            throw new Exception(null);//Maybe just return -1?
         }
 
     }
